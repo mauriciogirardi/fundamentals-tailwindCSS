@@ -35,7 +35,7 @@ export function TabMyDetails() {
         id="settings"
         className="mt-4 flex w-full flex-col gap-5 divide-y divide-zinc-200 md:mt-6 dark:divide-zinc-600"
       >
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 md:grid">
+        <div className="grid-cols-form gap-3 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="firstName"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
@@ -52,7 +52,7 @@ export function TabMyDetails() {
           </div>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="email"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
@@ -67,7 +67,7 @@ export function TabMyDetails() {
           </Input.Root>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-4 md:grid md:pt-5">
+        <div className="grid-cols-form gap-3 pt-4 md:grid md:pt-5 2xl:grid-cols-form-xl">
           <label
             htmlFor="photo"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-100"
@@ -84,7 +84,7 @@ export function TabMyDetails() {
           </FileInput.Root>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="role"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
@@ -96,7 +96,7 @@ export function TabMyDetails() {
           </Input.Root>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="country"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
@@ -109,7 +109,7 @@ export function TabMyDetails() {
           </Select>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="timezone"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
@@ -123,7 +123,7 @@ export function TabMyDetails() {
           </Select>
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="bio"
             className="block pb-4 text-sm font-medium text-zinc-700 md:pb-0 dark:text-zinc-100"
@@ -136,7 +136,7 @@ export function TabMyDetails() {
           <Editor />
         </div>
 
-        <div className="grid-cols-form 2xl:grid-cols-form-xl gap-3 pt-5 md:grid">
+        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="portfolio"
             className="mb-4 block text-sm font-medium text-zinc-700 md:mb-0 dark:text-zinc-100"

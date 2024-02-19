@@ -1,4 +1,4 @@
-import { Tabs } from './tabs-settings/tabs'
+import { Tabs } from '../../components/form/tabs-settings/tabs'
 
 export default function Settings() {
   return (
