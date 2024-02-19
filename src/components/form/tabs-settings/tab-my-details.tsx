@@ -123,7 +123,7 @@ export function TabMyDetails() {
           </Select>
         </div>
 
-        <div className="grid-cols-form gap-3 pt-5 md:grid 2xl:grid-cols-form-xl">
+        <div className="hidden grid-cols-form gap-3 pt-5 md:visible md:grid 2xl:grid-cols-form-xl">
           <label
             htmlFor="bio"
             className="block pb-4 text-sm font-medium text-zinc-700 md:pb-0 dark:text-zinc-100"
